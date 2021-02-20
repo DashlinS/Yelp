@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+/* MOBILE NAV SEEN AT > 501PX */
+.mobile-nav ul{
+  visibility: hidden;
+  color: rgb(255, 255, 255);
+  margin: 0px 0px 0px 20px;
+}
+
+.mobile-nav ul li{
+  display: inline-block;
+  font-size: 1rem;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 3px 10px;
+} 
+.mobile-nav ul li+li+li {
+  border: none;
+  margin-left: 55%;
+  font-size: 1.7rem;
+  color: rgb(255, 255, 255);
+}
+
+.mobile-nav ul i {
+  font-size: 2rem;
+}
+
+a:hover, a:link, a:active, a:visited{
+  color: inherit;
+} 
+
+/* BACKGROUND MAIN */
+header .background-img{
+  background: url(../images/cookedFoodCeramic.jpg) center center /cover;
+  height: 600px;
+}
+
+/* HEADER LISTS */
+header nav ul{
+  padding-top: 15px;
+  margin-left: 150px;
+}
+header nav ul li{
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 1.06rem;
+  margin-right: 30px;
+}
+
+header nav ul li ul{
+  margin-left: 800px;
+}
+
+nav ul li ul li+li {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 5px 25px;
+  border-radius: 5px;
+}
+
+/* LOGO */
+header img {
+  width: 150px;
+  display: block;
+  margin: 5% 0px 50px 46%;
+}
+
+/* FORMS */
+header form input[type="text"]{
+  padding: 10px 12px;
+  width: 28%;
+  border: none;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+header form input:focus {
+  outline: none;
+}
+header form .firstButton {
+  margin: 0px -5px 0px 19%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 10.8px 5px 12.8px 8px;
+  font-size: .88rem;
+  color:rgb(104, 101, 101);
+  font-weight: bolder;
+}
+header form .secondButton {
+  margin: 0px -10px;
+  border-left: 1px solid rgb(206, 201, 201);
+  background-color: rgb(255, 255, 255);
+  padding: 11px 5px 12.8px 8px;
+  font-size: .88rem;
+  color:rgb(104, 101, 101);
+  font-weight: bolder;
+}
+
+header form i {
+  background-color: rgb(209, 38, 43);
+  margin-left: -40px;
+  padding: 11px 20px 13.5px 20px;
+  color: rgb(255, 255, 255);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+header .places {
+  margin: 15px 0px 0px 34%;
+}
+
+header .places i {
+  margin-right: 6px;
+  font-size: .75rem;
+}
+header .places li{
+  display: inline;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  font-size: .88rem;
+  margin-right: 35px;
+}
+
+header section .photo {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 180px;
+}
+
+/* FIRST CONTAINER */
+.containerOne {
+  width: 75%;
+  margin: 0 auto;
+  height: 450px;
+}
+.containerOne h2, .containerOne h3 {
+  color: rgb(209, 38, 43);
+  text-align: center;
+  margin: 20px 0px 10px 0px;
+}
+
+.containerOne ul {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.containerOne ul li{
+  display: inline;
+  margin-right: 15px;
+  font-size: 1.06rem;
+}
+
+.firstSection {
+  margin-left: 75px;
+}
+.firstSection, .secondSection, .thirdSection{
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 5px;
+  float: left;
+  width: 27%;
+  height: 320px;
+  margin-right: 20px;
+}
+
+
+.secondImage {
+  width: 40%;
+  margin-bottom: -18px;
+}
+.mainImage {
+  width: 100%;
+}
+
+.innerGroup {
+  padding: 10px;
+  line-height: 20px;
+}
+
+.innerGroup h4 {
+  color: rgb(16, 116, 185);
+  margin-bottom: -10px;
+}
+
+.innerGroup p:last-child{
+  color: rgb(239, 94, 39);
+}
+
+.seeMore {
+  text-align: center;
+  color: rgb(16, 116, 185);
+  margin-bottom: 60px;
+}
+
+.containerTwo {
+  background-color: rgb(245, 245, 245);
+  height: 250px;
+}
+
+.containerTwo h2 {
+  text-align: center;
+  padding: 25px 0px;
+  color: rgb(209, 38, 43);
+  font-size: 1.25rem;
+}
+
+.containerTwo section {
+  border: 1px solid rgb(206, 201, 201);
+  background-color: rgb(255, 255, 255);
+  width: 12%;
+  float: left;
+  height: 150px;
+  margin-right: 30px;
+}
+
+.containerTwo .firstSection {
+  margin-left:22.5%;
+}
+
+.containerTwo img {
+  width: 35%;
+}
+
+.containerTwo section {
+  font-size: 1.06rem;
+  text-align: center;
+  padding-top: 20px;
+}

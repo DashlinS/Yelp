@@ -1,0 +1,402 @@
+@media only screen and (max-width: 500px){
+  /* HEADER AND NAV */
+  header .background-img {
+    background: url(../images/pexels-christel-jensen-628776.jpg) center center;
+    background-size: cover;
+    height: 400px;
+  }
+  
+  header nav ul {
+    display: none;
+  }
+
+  .mobile-nav ul{
+    visibility: visible;
+  }
+  
+  /* LOGO */
+  header img {
+    width: 170px;
+    margin: 7% 0px 20px 38%;
+  }
+
+
+  header form .secondInput{
+    display: none;
+  }
+
+  header form .firstButton {
+    display: none;
+  }
+
+  header form input[type="text"]{
+    width: 75%;
+    margin-left: 40px;
+    border-radius: 5px;
+  }
+
+  header .places {
+    margin: 0;
+    margin: 10px 0px 0px 45px;
+  }
+
+  header .places li {
+    margin: 0px 0px 0px 10px;
+  }
+
+  .containerOne h2 {
+    font-size: 1.2rem;
+  }
+
+  .containerOne ul li {
+    font-size: 1rem;
+  }
+
+  .containerOne {
+    height: 1250px;
+    width: 70%;
+  }
+
+  .firstSection, .secondSection, .thirdSection{
+    width: 100%;
+    height: 350px;
+    display: inline-block;
+    margin: 10px auto;
+  }
+
+  .innerGroup {
+    text-align: center;
+  }
+
+  .seeMore {
+    display: none;
+  }
+
+  .containerTwo .firstSection{
+    margin-left: 5%;
+  }
+  .containerTwo section {
+    margin: 0px 5px 0px 0px;
+    height: 100px;
+    width: 22%;
+  }
+}
+
+
+@media (min-width: 501px) and (max-width: 775px){
+  header .background-img {
+    background:url(../images/cookedFoodCeramic.jpg) center center;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .mobile-nav ul {
+    visibility: visible;
+    margin-right: -100px;
+  }
+
+  header nav ul li ul {
+    margin: 0;
+  }
+
+  header nav ul {
+    margin-left: 18%;
+    display: none;
+  }
+
+  header nav ul li {
+    font-size: 1.2rem;
+  }
+
+  header img {
+    width: 185px;
+    margin: 7% 0px 30px 42%;
+  }
+
+  header form .secondInput{
+    display: none;
+  }
+
+  header form .firstButton {
+    display: none;
+  }
+
+  header form input[type="text"]{
+    width: 75%;
+    margin-left: 10%;
+    border-radius: 5px;
+  }
+
+   header .places {
+    margin: 0;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+  }
+
+  header .places li {
+    margin: 0px 10px 0px 10px;
+  }
+
+  .containerOne {
+    height: 1250px;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .containerOne h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .containerOne ul li {
+    font-size: .9rem;
+    text-align: center;
+  }
+  
+  .containerOne h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .firstSection, .secondSection, .thirdSection{
+    width: 350px;
+    height: 360px;
+    display: inline-block;
+    margin: 10px auto;
+  }
+
+  .innerGroup {
+    text-align: center;
+  }
+
+  .containerTwo .firstSection{
+    margin-left: 5%;
+  }
+
+  .innerGroup {
+    text-align: center;
+  }
+
+  .seeMore {
+    display: none;
+  }
+
+  .containerTwo {
+    margin-top: 50px;
+  }
+
+  .containerTwo section {
+    margin: 0px 5px 0px 0px;
+    height: 110px;
+    width: 22%;
+  }
+}
+
+@media (min-width: 776px) and (max-width: 970px){
+  .mobile-nav ul {
+    display: none;
+  }
+
+  header .background-img {
+    background:url(../images/cookedFoodCeramic.jpg) center center;
+    background-size: cover;
+    /* overflow: hidden; */
+  }
+
+  header nav ul li ul {
+    margin: 0;
+  }
+
+  header nav ul {
+    margin-left: 22%;
+  }
+
+  header nav ul li {
+    font-size: 1.2rem;
+  }
+
+  header img {
+    width: 190px;
+    margin: 7% 0px 30px 40%;
+  }
+
+  header form {
+    margin-left: -20%;
+  }
+
+  header form input[type="text"]{
+    padding: 10px 12px;
+    width: 35%;
+    border: none;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  header .places {
+    margin: 0;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .containerOne {
+    height: 450px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .containerOne .firstSection {
+    margin-left: 50px;
+  }
+
+  .firstSection, .secondSection, .thirdSection{
+    width: 210px;
+    height: 270px;
+    display: inline-block;
+    margin: 10px 15px;;
+  }
+
+  .seeMore {
+    display: none;
+  }
+
+   .innerGroup {
+    text-align: center;
+  }
+
+  .containerTwo .firstSection{
+    margin-left: 5%;
+  }
+
+  .innerGroup {
+    text-align: center;
+  }
+
+  .seeMore {
+    display: none;
+  }
+
+  .containerTwo {
+    margin-top: 50px;
+  }
+
+  .containerTwo section {
+    margin: 0px 5px 0px 0px;
+    height: 130px;
+    width: 22%;
+  }
+}
+
+@media (min-width: 971px) and (max-width: 1100px){
+  header .background-img {
+    overflow: hidden;
+  }
+  .mobile-nav ul {
+    display: none;
+  }
+
+  header nav ul li ul {
+    margin: 0;
+  }
+
+  header nav ul {
+    margin-left: 22%;
+  }
+
+  header nav ul li {
+    font-size: 1.2rem;
+  }
+
+  header img {
+    width: 190px;
+    margin: 7% 0px 30px 40%;
+  }
+
+  header form {
+    margin-left: -20%;
+  }
+
+  header form input[type="text"]{
+    padding: 10px 12px;
+    width: 35%;
+    border: none;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  header .places {
+    margin: 0;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .containerOne {
+    height: 450px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .containerOne .firstSection {
+    margin-left: 50px;
+  }
+
+  .firstSection, .secondSection, .thirdSection{
+    width: 260px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px 15px;;
+  }
+
+  .seeMore {
+    display: none;
+  }
+
+   .innerGroup {
+    text-align: center;
+  }
+
+  .containerTwo .firstSection{
+    margin-left: 5%;
+  }
+
+  .innerGroup {
+    text-align: center;
+  }
+
+  .seeMore {
+    display: none;
+  }
+
+  .containerTwo {
+    margin-top: 50px;
+  }
+
+  .containerTwo section {
+    margin: 0px 5px 0px 0px;
+    height: 130px;
+    width: 22%;
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1500px) {
+  header .background-img {
+    overflow: hidden;
+  }
+  .mobile-nav ul {
+    display: none;
+  }
+
+  header nav ul li ul {
+    margin: 0;
+  }
+
+  header nav ul {
+    margin-left: 30%;
+  }
+
+  header nav ul li {
+    font-size: 1.2rem;
+  }
+
+   header img {
+    width: 170px;
+    margin: 7% 0px 50px 45%;
+  }
+}
